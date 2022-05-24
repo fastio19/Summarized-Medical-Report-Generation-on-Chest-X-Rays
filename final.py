@@ -7,6 +7,7 @@ import create_model as cm
 
 
 st.title("Chest X-ray Report Generator")
+st.markdown("[Github](https://github.com/fastio19/Summarized-Medical-Report-Generation-on-Chest-X-Rays)")
 st.markdown("\nThis app will generate impression part of an X-ray report.\nYou can upload 2 X-rays that are front view and side view of chest of the same individual.")
 st.markdown("The 2nd X-ray is optional.")
 
