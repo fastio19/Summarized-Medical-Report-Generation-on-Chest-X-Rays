@@ -4,7 +4,7 @@ Medical imaging is the process of creating visual representations of the interio
 
 [![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://share.streamlit.io/fastio19/summarized-medical-report-generation-on-chest-x-rays/main/final.py)
 
-![Hnet-image](https://user-images.githubusercontent.com/12584994/115959582-de0aaf00-a4da-11eb-9695-319030527a4e.gif)
+![Hnet-image](https://github.com/fastio19/Summarized-Medical-Report-Generation-on-Chest-X-Rays/blob/main/preview.gif)
 
 
 # Results
