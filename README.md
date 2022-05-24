@@ -6,20 +6,3 @@ Medical imaging is the process of creating visual representations of the interio
 
 ![Hnet-image](https://github.com/fastio19/Summarized-Medical-Report-Generation-on-Chest-X-Rays/blob/main/preview.gif)
 
-
-# Results
-| Sl No. | Model | BLEU-1 | BLEU-2 | BLEU-3 | BLEU-4
-| - | --------------------- | ----------- | -- | -- | -- |
-| 1. | Attention Model (greedy search) | 0.306819 | 0.302596 | 0.339031 | 	0.383689 |
-| 2. | Custom Final Model (greedy search) | 0.214501 |	0.243265 |	0.303785 |	0.36675 |
-| 3. | Simple Encoder Decoder (greedy search) | 0.317412 |	0.308454 |	0.333496 |	0.366244 |
-
-Contents of the Code Files are given below :-
-
-| Code File | Description  | 
-| ----  | --------- |
-| EDA_Medical_Report.ipynb   | Exploratory Data Analysis|
-| 2_Simple_encoder_decoder_Medical_Report.ipynb   | Simple Encoder Decoder Model |
-| 3_Attention_Model_Medical_Report.ipynb    | Attention Model|
-| 4_Custom_Final_Model.ipynb   | Model based on [Q. Tang, F. Liu, T. Zhang, J. Jiang, Y. Zhang, Attention-guided Chained Context Aggregation for Semantic Segmentation (2020)](https://arxiv.org/abs/2002.12041v3) paper|
-| 5_Final.ipynb    |  	Function 1 - takes input images, returns predicted caption,Function 2 - takes input images returns BLEU scores (This file contains full data pipeline)|
